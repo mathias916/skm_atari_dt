@@ -1,0 +1,96 @@
+
+///M_O indi //_Resistor_head_Designs_and_fab_
+
+
+\     {       '.     ''''/}
+    \ ..,,,, ..
+      \      // ,,
+        
+  ...---  \\/\/\/\/--...
+
+//not open_source_ no-nonsince policy////
+//no inviteds no partners, ZERO means NI I let NI mean noda nill noda all ni nill es all ni Zero noda all ni....zip zilch
+////NO A VICT'UM-LESS CRIME 
+//fact more Victums then any and all fuknn crimes' ALL OF SIN had the same vicdum count
+...THE DEVIL A SOFWARE ENJINNEER? Where es SHE;???you know so much where es she' at...
+...
+..
+.
+
+
+class List_
+{
+	
+	
+public:
+
+	typedef struct Node_
+	{
+		DataT_ data_;
+		DataT_Key key_;
+		
+		Node_ *next;
+		Node_ *prev;
+	}Node_;
+
+
+
+private:	
+
+
+Node_ *	head_;
+Node_ *	tail_;
+Node_ *	Itorator_;
+Node_ *	list_;
+
+
+long size_;
+
+public:
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//construct/destruct//
+List_();
+~List_();
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//stack function//
+int	Push(DataT_ );
+DataT_ 	Pop();
+DataT_	Top();
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//list function//
+int	Insert(DataT_);
+int	Insert(DataT_, DataT_Key);
+
+int	Delete(DataT_Key);
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//queue function//
+int	enQueue(DataT_ );
+DataT_ 	deQueue();
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//general function
+int	clear_list();
+int	HasNext();
+int	HasPrev();
+Node_ * iBegin(); 	//return itorator_ = head
+Node_ * iEnd();	//return itorator_ = tail
+Node_ *	gHead();
+Node_ *	gTail();
+Node_ *	gItorator();
+Node_ *	gHSub(unsigned long);
+Node_ *	gTSub(unsigned long);
+Node_ *	gNext();
+Node_ *	gPrev();
+Node_ * NewNode();
+long 	Size();
+void    LinkListNode(Node_ *);		//link current itorator node
+void    LinkListNode(Node_ *,Node_*); //link any node I dont care
+DataT_	ShowData(Node_ *);
+////////////////////////////////////////////////////////////////////////////////////////////////////
+};//List_ class
+
+////Designed in aprx. 2010-2015 _m_o_ mech. electronics science tech. CALIFORNIA
+
+
+
+
+
